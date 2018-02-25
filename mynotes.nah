@@ -3,3 +3,9 @@ For root v5 on ubuntu, had to also do:
 apt-get install xserver-xorg xfstt
 apt-get install t1-xfree86-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
 ```
+
+Don't download in /tmp. Put it somewhere permanent (e.g. /home/naharrison/root_source_code/), then put:
+```
+source /home/naharrison/root_source_code/root-5-34-36/bin/thisroot.csh /home/naharrison/root_source_code/root-5-34-36
+```
+in `.tcshrc`.
