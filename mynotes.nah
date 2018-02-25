@@ -1,0 +1,5 @@
+For root v5 on ubuntu, had to also do:
+```
+apt-get install xserver-xorg xfstt
+apt-get install t1-xfree86-nonfree ttf-xfree86-nonfree ttf-xfree86-nonfree-syriac xfonts-75dpi xfonts-100dpi
+```
